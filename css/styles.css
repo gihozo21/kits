@@ -1,0 +1,361 @@
+/* General Styles */
+body {
+    font-family:lora and open sans;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f7a8b8; /* Peach color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo {
+    font-size: 2.5em;
+    font-family: lora and open sans;
+    color: #fff;
+  }
+  
+  header .needle {
+    font-size: 1.2em;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+    color: #5f5f5f;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+  .categories {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categories ul {
+    list-style-type: none;
+    padding: 7px; 
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .categories li {
+    margin: 10px 0;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .categories a:hover {
+    color: #f7a8b8;
+  }
+  
+  /* Category Section */
+  .category {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    top: 55px;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    .categories ul {
+      font-family:Lora and Open Sans;
+      font-size: 20px;
+      color: Pastel Colors (Peach, Mint, Lavender);
+      padding: 10px;
+      position: sticky;
+      position: -webkit-sticky;
+      width: 100%;
+    }
+  
+    footer {
+      font-size: 0.8em;
+    }
+  }
+  .image{
+   
+    width: 30rem;
+    height: 40rem;
+  }
+  categories4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  form{
+    border-radius: 4px;
+    border: 2px solid #e3e3e3;
+    padding: 2rem;
+    text-align: center;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-right: auto;
+    align-items: center;
+    height: 16rem;
+padding-top: 4rem;
+padding-bottom: 3rem;
+width: 28rem;
+border-radius: 12px;
+    
+    
+  }
+  input{
+    border-radius: 40px;
+    padding:10px;
+    text-align: center;
+    list-style-type: none; /* Remove bullet points */
+  padding:6px; /* Remove padding */
+  margin: 0; /* Remove margin */
+  bottom:4rem;
+  position: relative;
+  left:20px;
+
+  }
+  input :hover {
+    color: #f7a8b8;
+  }
+  label{
+    text-align: center;
+    position: relative;
+    text-align: justify-all;
+    margin:auto;
+    list-style-type: none; /* Remove bullet points */
+  padding:0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Arrange items in a line */
+  bottom:2rem;
+  }
+  .submit:hover{
+color: #f7a8b8;
+width: 8rem;
+height:3rem;
+position: relative;
+background-color: ;
+border-radius: 2rem;
+  }
+  .shipping{
+    width: 28rem;
+    height: 31rem;
+    position: relative;
+  }
+  h4{
+    color: #f7a8b8;
+    font-family: lora and open sans;
+    font: 100;
+  }
+  .joy{
+    bottom:4rem;
+    text-align: center;
+
+  }
+  .payment{
+    width: 28rem;
+    height:15rem;
+    position: relative;
+
+  }
+  .supplier{
+    width: 28rem;
+    height:15rem;
+    position: relative;
+  }
+  .image1{
+
+    width: 30rem;
+    height: 40rem;
+  }
+
+  /* Base styles */
+.categories4 {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.categories4 h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.categories4 ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.categories4 li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.categories4 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ddd;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.categories4 a:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .categories4 ul {
+    padding: 0;
+  }
+
+  .categories4 li {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .categories4 a {
+    font-size: 1.1rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .categories4 h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Additional responsiveness for smaller screens */
+@media (max-width: 480px) {
+  .categories4 h2 {
+    font-size: 1.2rem;
+  }
+
+  .categories4 a {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+.categories ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Styling for each link */
+.categories a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.categories a:hover {
+  background-color: #fffefe;
+}
+
+/* Responsive adjustments for different screen sizes */
+/* For screens larger than 1200px (desktops) */
+@media (min-width: 1200px) {
+  .categories ul {
+    gap: 30px;
+  }
+}
+
+/* For screens between 768px and 1200px (tablets and smaller desktops) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .categories ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .categories a {
+    padding: 10px;
+  }
+}
+
+/* For screens between 480px and 767px (small tablets) */
+@media (max-width: 767px) {
+  .categories ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .categories a {
+    padding: 10px 20px;
+  }
+}
+
+/* For screens between 320px and 479px (large phones) */
+@media (max-width: 479px) {
+  .categories ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .categories a {
+    padding: 8px 16px;
+    font-size: 0.7em;
+  }
+}
+
+/* For screens smaller than 320px (small phones) */
+@media (max-width: 319px) {
+  .categories a {
+    padding: 6px 12px;
+    font-size: 0.7em;
+  }
+}
